@@ -1,5 +1,6 @@
 const { pgClient, mongoClient } = require('./database');
-
+const { sqlQueryClientes, sqlQueryAdicionais, sqlQueryAcais, sqlQueryPedidos } = require('./queries');
+const { clienteDocument, adicionalDocument, acaiDocument, pedidoDocument } = require('./documents');
 
 async function migrateTable(tableName, sqlQuery, documentObject, mongoDb) {
   const collection = mongoDb.collection(tableName);
