@@ -1,0 +1,25 @@
+{
+  "name": "migrate-pg-for-mongodb",
+  "version": "1.0.0",
+  "description": "Migração de banco de dados Postgres para o MongoDB",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juceliocosta/migrate-pg-for-mongodb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/juceliocosta/migrate-pg-for-mongodb/issues"
+  },
+  "homepage": "https://github.com/juceliocosta/migrate-pg-for-mongodb#readme",
+  "dependencies": {
+    "mongodb": "^7.2.0",
+    "pg": "^8.20.0"
+  }
+}
