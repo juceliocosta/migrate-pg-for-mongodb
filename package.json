@@ -4,7 +4,7 @@
   "description": "Migração de banco de dados Postgres para o MongoDB",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "migrate": "node --env-file=.env src/main.js"
   },
   "repository": {
     "type": "git",
