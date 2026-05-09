@@ -4,7 +4,8 @@
   "description": "Migração de banco de dados Postgres para o MongoDB",
   "main": "main.js",
   "scripts": {
-    "migrate": "node --env-file=.env src/main.js"
+    "migrate": "node --env-file=.env src/main.js",
+    "mockPostgres": "node --env-file=.env ./src/dbQueries/mockPostgres.js"
   },
   "repository": {
     "type": "git",
